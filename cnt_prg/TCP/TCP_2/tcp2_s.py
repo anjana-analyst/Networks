@@ -12,5 +12,5 @@ while True:
         c.send(p.encode('utf-8'))
         print("Chat End")
         break
-msg=input("-->",)
+msg=input("-->")
 c.send(msg.encode('utf-8'))
